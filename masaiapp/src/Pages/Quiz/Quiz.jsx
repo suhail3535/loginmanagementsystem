@@ -9,103 +9,12 @@ import QuizCard from "../../Component/Card/QuizCard";
 import { getRequestQuiz } from "../../Redux/Admin/actions";
 
 const Lecture = () => {
-const newdata = useSelector((store) => store.AdminReducer.lecture);
+    const newdata = useSelector((store) => store.AdminReducer.lecture);
 
-    // const [data, setData] = useState([]);
-    // const [isFilterReset, setIsFilterReset] = useState(true);
-    // const [searchQuery, setSearchQuery] = useState("");
-    // const [category, setcategory] = useState("");
-    // const [instructure, setinstructure] = useState("");
-    // const [type, settype] = useState("");
-    // const [optional, setoptional] = useState("");
-    // const [selectedDate, setSelectedDate] = useState("");
-    // const [currentPage, setCurrentPage] = useState(1);
-    // const [itemsPerPage] = useState(8);
-
-    // const getAllDetails = () => {
-    //     let url = "";
-    //     // if (category) {
-    //     //     url += `?category=${category}`;
-    //     // }
-    //     // if (instructure) {
-    //     //     url += `&instructure=${instructure}`;
-    //     // }
-    //     // if (type) {
-    //     //     url += `&type=${type}`;
-    //     // }
-    //     // if (optional) {
-    //     //     url += `&optional=${optional}`;
-    //     // }
-
-    //     axios
-    //         .get(url)
-    //         .then((res) => {
-    //             setData(res.data);
-    //             console.log(res.data);
-    //         })
-    //         .catch((err) => {
-    //             console.log(err);
-    //         });
-    // };
-
-    // const handleSearch = (event) => {
-    //     setSearchQuery(event.target.value);
-    // };
-
-    // const handleReset = () => {
-    //     setSearchQuery("");
-    //     setcategory("");
-    //     setinstructure("");
-    //     settype("");
-    //     setoptional("");
-    //     setSelectedDate("");
-    //     setIsFilterReset(true);
-    // };
-
-    // const handleCategoryChange1 = (event) => {
-    //     const selectedCategory = event.target.value;
-    //     setcategory(selectedCategory);
-    //     setIsFilterReset(false);
-    // };
-
-    // const handleCategoryChange2 = (event) => {
-    //     const selectedCategory = event.target.value;
-    //     setinstructure(selectedCategory);
-    //     setIsFilterReset(false);
-    // };
-
-    // const handleCategoryChange3 = (event) => {
-    //     const selectedCategory = event.target.value;
-    //     settype(selectedCategory);
-    //     setIsFilterReset(false);
-    // };
-
-    // const handleCategoryChange4 = (event) => {
-    //     const selectedCategory = event.target.value;
-    //     setoptional(selectedCategory);
-    //     setIsFilterReset(false);
-    // };
-
-    const dispatch=useDispatch()
+    const dispatch = useDispatch();
     useEffect(() => {
         dispatch(getRequestQuiz());
     }, []);
-
-    // const indexOfLastItem = currentPage * itemsPerPage;
-    // const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-    // const currentItems = data
-    //     .filter(
-    //         (ele) =>
-    //             (!category || ele.category === category) &&
-    //             (!instructure || ele.instructure === instructure) &&
-    //             (!type || ele.type === type) &&
-    //             (!optional || ele.optional === optional) &&
-    //             (!selectedDate || ele.date === selectedDate) &&
-    //             ele.author.toLowerCase().includes(searchQuery.toLowerCase())
-    //     )
-    //     .slice(indexOfFirstItem, indexOfLastItem);
-
-    // ;
 
     return (
         <div id={style.main_div}>
@@ -116,16 +25,7 @@ const newdata = useSelector((store) => store.AdminReducer.lecture);
                 </div>
                 <div id={style.btn_div}></div>
             </div>
-            {/* <Filter
-                searchQuery={searchQuery}
-                handleSearch={handleSearch}
-                handleReset={handleReset}
-                selectedDate={selectedDate}
-                // handleCategoryChange1={handleCategoryChange1}
-                // handleCategoryChange2={handleCategoryChange2}
-                // handleCategoryChange3={handleCategoryChange3}
-                // handleCategoryChange4={handleCategoryChange4}
-            /> */}
+
             <Filter />
 
             <div>

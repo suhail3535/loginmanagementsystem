@@ -10,7 +10,7 @@ import Quiz from "../Pages/Quiz/Quiz";
 import Course from "../Pages/Courses/Course";
 import Elective from "../Pages/Elective/Elective";
 import Bounty from "../Pages/BountyProgram/Bounty";
-// import Announcement from "../Pages/Announcement/Announcement";
+import Announcement from "../Pages/Announcement/Announcement";
 import Notifivation from "../Pages/Notification/Notifivation";
 import LoginTicket from "../Component/TicketSystem/LoginPannel/LoginTicket";
 import Createtickets from "../Component/TicketSystem/CreateTickets.jsx/Createtickets";
@@ -35,12 +35,13 @@ const Allroutes = () => {
                 <Route path="/ticketpannel" element={<LoginTicket />} />
                 <Route path="/createticket" element={<Createtickets />} />
                 <Route path="/bounty" element={<Bounty />} />
+                <Route path="/announcement" element={<Announcement />} />
                 {/* <Route path="/dashbord" element={<Dashbord />} /> */}
                 {/* <Route path="/filter" element={<Filter />} />
 
 
 
-                <Route path="/announcement" element={<Announcement />} />
+
 
             */}
                 {/* <Route path="/admin" element={<Admin />} /> */}

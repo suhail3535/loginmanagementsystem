@@ -1,0 +1,92 @@
+#main_container {
+    border: 0px solid green;
+    margin-bottom: 100px;
+}
+#Announcement {
+    border: 0px solid red;
+    width: 100%;
+    padding: 20px 20px;
+    margin: auto;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+display: flex;
+justify-content: space-evenly;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#heading {
+    width: 20%;
+    border: 0px solid green;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+#emp{
+    width: 50%;
+    border: 0px solid blue;
+}
+
+/* <-----------For mobile screen------> */
+@media screen and (min-width: 280px) and (max-width: 420px) {
+    #Announcement {
+        border: 0px solid red;
+        width: 100%;
+        margin: auto;
+        padding: 20px 20px;
+       box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+            rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+       margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    #heading {
+       width: 100%;
+        border: 0px solid rgb(0, 17, 128);
+        font-size: 20px;
+        font-weight: 600;
+
+    }
+}
+/* <-----------For Tablet screen------> */
+@media screen and (min-width: 421px) and (max-width: 767px) {
+    #Announcement {
+        border: 0px solid red;
+        width: 100%;
+        margin: auto;
+        padding: 20px 20px;
+       box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+            rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+       margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    #heading {
+       width: 100%;
+        border: 0px solid rgb(0, 17, 128);
+        font-size: 20px;
+        font-weight: 600;
+
+    }
+}
+/* <-----------For laptop screen------> */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #Announcement {
+        border: 0px solid red;
+        width: 100%;
+        margin: auto;
+        padding: 20px 20px;
+       box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+            rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+       margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    #heading {
+       width: 100%;
+        border: 0px solid rgb(0, 17, 128);
+        font-size: 20px;
+        font-weight: 600;
+
+    }
+}
