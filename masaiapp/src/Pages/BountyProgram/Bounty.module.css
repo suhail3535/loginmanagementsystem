@@ -1,0 +1,59 @@
+#empty{
+border: 0px solid red;
+width: 80%;
+margin: 50px auto;
+display: flex;
+justify-content: space-between;
+box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+border-radius: 10px;
+padding: 15px;
+font-size: 16px;
+font-weight: 500;
+}
+
+/* <------------for mobile screen----------> */
+@media screen and (min-width:280px) and (max-width: 420px){
+    #empty{
+border: 0px solid red;
+width: 100%;
+margin: 50px auto;
+display: flex;
+justify-content: space-between;
+box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+border-radius: 10px;
+padding: 15px;
+font-size: 16px;
+font-weight: 500;
+}
+}
+
+/* <------------for Tablet screen----------> */
+@media screen and (min-width:421px) and (max-width: 767px){
+    #empty{
+border: 0px solid red;
+width: 100%;
+margin: 50px auto;
+display: flex;
+justify-content: space-between;
+box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+border-radius: 10px;
+padding: 15px;
+font-size: 16px;
+font-weight: 500;
+}
+}
+/* <------------for Laptop screen----------> */
+@media screen and (min-width:768px) and (max-width: 1024px){
+    #empty{
+border: 0px solid red;
+width: 100%;
+margin: 50px auto;
+display: flex;
+justify-content: space-between;
+box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+border-radius: 10px;
+padding: 15px;
+font-size: 16px;
+font-weight: 500;
+}
+}

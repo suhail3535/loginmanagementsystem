@@ -1,0 +1,245 @@
+#nav2_div {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.544);
+
+    width: 100%;
+    margin: auto;
+    height: 70px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+#heading_div {
+    width: 20%;
+    border: 0px solid green;
+font-size: 20px;
+font-weight: 600;
+    margin-top: 10px;
+}
+#btn_div{
+    border: 0px solid blue;
+    width: 30%;
+}
+
+#step{
+    width: 80%;
+    margin: auto;
+}
+#ticketbox{
+    border: 0px solid red;
+    width: 80%;
+    margin: 40px auto;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: auto;
+    padding: 20px;
+}
+#category_div{
+    border: 0px solid green;
+    margin-bottom: 30px;
+    width: 40%;
+    padding: 10px;
+}
+
+#category_div select{
+    height: 55px;
+}
+
+
+#title_div input{
+    height: 55px;
+}
+
+#title_div{
+    border: 0px solid rgb(0, 60, 128);
+    margin-bottom: 30px;
+        padding: 10px;
+}
+#deccription_div{
+    border: 0px solid rgb(128, 0, 128);
+
+    height: 200px;
+    margin-bottom: 80px;
+}
+#deccription_div textarea{
+    height: 200px;
+}
+
+#bttn_div{
+    width: 20%;
+    margin: auto;
+    border: 0px solid yellow;
+}
+#bttn{
+    border: 0px solid red;
+    width: 80%;
+    margin: auto;
+    color: white;
+    background-color: #1976d2;
+
+}
+#bttn:hover{
+background-color: rgba(27, 26, 26, 0.942);
+}
+
+/* <------for mobile screen-------> */
+@media screen and (min-width: 280px) and (max-width:420px) {
+
+#nav2_div {
+     border-bottom: 1px solid rgba(128, 128, 128, 0.544);
+
+    width: 100%;
+    margin: auto;
+    height: 70px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+#heading_div {
+    width: 40%;
+    border: 0px solid green;
+font-size: 20px;
+font-weight: 600;
+    margin-top: 10px;
+}
+#btn_div{
+    border: 0px solid blue;
+    width: 30%;
+}
+
+#bttn_div{
+    width: 70%;
+    margin: auto;
+    border: 0px solid yellow;
+}
+#bttn{
+    border: 0px solid red;
+    width: 100%;
+    margin: auto;
+    color: white;
+    background-color: #1976d2;
+
+}
+#bttn:hover{
+background-color: rgba(27, 26, 26, 0.942);
+}
+#category_div{
+    border: 0px solid green;
+    margin-bottom: 30px;
+    width: 100%;
+    padding: 10px;
+}
+
+#category_div select{
+    height: 55px;
+}
+}
+
+
+/* <------for tablet screen-------> */
+@media screen and (min-width: 421px) and (max-width:767px) {
+
+#nav2_div {
+     border-bottom: 1px solid rgba(128, 128, 128, 0.544);
+
+    width: 100%;
+    margin: auto;
+    height: 70px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+#heading_div {
+    width: 35%;
+    border: 0px solid green;
+font-size: 20px;
+font-weight: 600;
+    margin-top: 10px;
+}
+#btn_div{
+    border: 0px solid blue;
+    width: 30%;
+}
+
+#bttn_div{
+    width: 70%;
+    margin: auto;
+    border: 0px solid yellow;
+}
+#bttn{
+    border: 0px solid red;
+    width: 100%;
+    margin: auto;
+    color: white;
+    background-color: #1976d2;
+
+}
+#bttn:hover{
+background-color: rgba(27, 26, 26, 0.942);
+}
+#category_div{
+    border: 0px solid green;
+    margin-bottom: 30px;
+    width: 100%;
+    padding: 10px;
+}
+
+#category_div select{
+    height: 55px;
+}
+}
+
+/* <------for laptop screen-------> */
+@media screen and (min-width: 768px) and (max-width:1024px) {
+
+#nav2_div {
+     border-bottom: 1px solid rgba(128, 128, 128, 0.544);
+
+    width: 100%;
+    margin: auto;
+    height: 70px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+#heading_div {
+    width: 35%;
+    border: 0px solid green;
+font-size: 20px;
+font-weight: 600;
+    margin-top: 10px;
+}
+#btn_div{
+    border: 0px solid blue;
+    width: 30%;
+}
+
+#bttn_div{
+    width: 40%;
+    margin: auto;
+    border: 0px solid yellow;
+}
+#bttn{
+    border: 0px solid red;
+    width: 100%;
+    margin: auto;
+    color: white;
+    background-color: #1976d2;
+
+}
+#bttn:hover{
+background-color: rgba(27, 26, 26, 0.942);
+}
+#category_div{
+    border: 0px solid green;
+    margin-bottom: 30px;
+    width: 100%;
+    padding: 10px;
+}
+
+#category_div select{
+    height: 55px;
+}
+}
