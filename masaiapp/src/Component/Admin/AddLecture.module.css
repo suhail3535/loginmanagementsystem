@@ -1,0 +1,59 @@
+#addlecture_div {
+    border: 0px solid red;
+    width: 70%;
+    padding: 20px;
+    margin: 40px auto;
+    height: auto;
+    height: 1000px;
+}
+
+#allDetails_div{
+    border: 0px solid rgb(0, 255, 8);
+    width: 80%;
+    padding: 20px;
+    margin: 40px auto;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+
+
+}
+#select_tag_div{
+    border: 0px solid blue;
+    padding: 10px;
+}
+#select_tag_div input{
+/* border: 1px solid red; */
+
+    margin-bottom: 12px;
+}
+
+#select_tag_div select{
+/* border: 1px solid red; */
+
+    margin-bottom: 12px;
+}
+
+
+#reset_filter {
+    background-color: #4f46e5;
+    width: 100%;
+    margin:  40px auto;
+    height: 40px;
+    color: white;
+
+}
+
+#reset_filter:hover {
+    background-color: black;
+    transition: border-width 0.6s linear;
+}
+
+
+#submitbttn{
+    border: 0px solid green;
+    width: 40%;
+    margin: auto;
+}
+
+

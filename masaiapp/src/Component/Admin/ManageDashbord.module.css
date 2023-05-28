@@ -1,0 +1,15 @@
+#main_container {
+    border: 0px solid red;
+    width: 60%;
+    padding: 20px;
+    margin: 40px auto;
+    height: auto;
+}
+
+
+#imagediv img{
+    border: 0px solid red;
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+}

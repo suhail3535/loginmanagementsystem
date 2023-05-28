@@ -2,9 +2,9 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "../Pages/Home";
 import Login from "../Pages/Login/Login.jsx";
-// import Dashbord from "../Pages/Dashbord";
+import Dashbord from "../Pages/Dashbord";
 import Lecture from "../Pages/Lecture/Lecture";
-// import Filter from "../Component/Filter/Filter";
+import Filter from "../Component/Filter/Filter";
 import Assignment from "../Pages/Assignment/Assignment";
 import Quiz from "../Pages/Quiz/Quiz";
 import Course from "../Pages/Courses/Course";
@@ -14,11 +14,10 @@ import Announcement from "../Pages/Announcement/Announcement";
 import Notifivation from "../Pages/Notification/Notifivation";
 import LoginTicket from "../Component/TicketSystem/LoginPannel/LoginTicket";
 import Createtickets from "../Component/TicketSystem/CreateTickets.jsx/Createtickets";
-// import { Admin } from "../Pages/Admin";
+import { Admin } from "../Pages/Admin";
 
-// import Modelcom from "../Component/Admin/Tickets/Modal";
-// import Discussion from "../Pages/Discussion";
-// import Messagess from "../Pages/Messagess";
+import Modelcom from "../Component/Admin/Tickets/Modal";
+
 
 const Allroutes = () => {
     return (
@@ -36,18 +35,17 @@ const Allroutes = () => {
                 <Route path="/createticket" element={<Createtickets />} />
                 <Route path="/bounty" element={<Bounty />} />
                 <Route path="/announcement" element={<Announcement />} />
-                {/* <Route path="/dashbord" element={<Dashbord />} /> */}
-                {/* <Route path="/filter" element={<Filter />} />
+             <Route path="/dashbord" element={<Dashbord />} />
+            <Route path="/filter" element={<Filter />} />
 
 
 
 
 
-            */}
-                {/* <Route path="/admin" element={<Admin />} /> */}
-                {/* <Route path="/modal" element={<Modelcom />} /> */}
-                {/* <Route path="/diss" element={<Discussion />} /> */}
-                {/* <Route path="/messages" element={<Messagess />} /> */}
+
+            <Route path="/admin" element={<Admin />} /> 
+            <Route path="/modal" element={<Modelcom />} />
+
             </Routes>
         </div>
     );

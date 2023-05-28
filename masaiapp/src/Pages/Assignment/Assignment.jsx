@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
+import React, { useEffect } from "react";
+
 import Navbar from "../../Component/Navbar/Navbar";
 
-// import Pagination from "../../Component/Pagination";
+
 import style from "./Assignment.module.css";
 import Card2 from "../../Component/Card/Card2";
 import Filter2 from "../../Component/Filter/Filter2";
