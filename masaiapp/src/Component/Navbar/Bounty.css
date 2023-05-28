@@ -1,0 +1,198 @@
+.main_div {
+    border: 0px solid green;
+
+    display: flex;
+
+    width: 100%;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 15px;
+    margin: auto;
+    color: rgb(31, 41, 55);
+    font-size: 1.3rem;
+    font-weight: 600;
+
+    justify-content: space-evenly;
+}
+.schudle {
+
+    border: 0px solid yellow;
+    width: 40%;
+}
+.button {
+    border: 0px solid red;
+    width: 25%;
+    display: flex;
+
+
+    justify-content: space-evenly;
+}
+.bttn1 {
+    background-color: #2563eb;
+    color: #f3f4f6;
+
+    font-family: sans-serif;
+    padding: 5px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.bttn1:hover {
+    background-color:  rgb(31, 41, 55);
+}
+.bttn2 {
+    background-color:  rgb(31, 41, 55);
+    color: #f3f4f6;
+
+    font-family: sans-serif;
+    padding: 5px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.bttn2:hover {
+background-color: #2563eb;
+}
+
+
+/* -----------for mobile screen----------- */
+@media screen and (min-width: 280px)  and (max-width:420px){
+
+.main_div {
+    border: 0px solid green;
+
+    display: flex;
+
+    width: 100%;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 15px;
+    margin: auto;
+    color: rgb(31, 41, 55);
+    font-size: 1.3rem;
+    font-weight: 600;
+
+    justify-content: space-evenly;
+}
+.schudle {
+
+    border: 0px solid yellow;
+    width: 45%;
+
+}
+.button {
+    border: 0px solid red;
+    width: 50%;
+    display: block;
+    padding: 5px;
+
+
+    justify-content: space-evenly;
+}
+}
+/* -----------for Tablet screen----------- */
+@media screen and (min-width: 421px)  and (max-width:767px){
+
+.main_div {
+    border: 0px solid green;
+
+    display: flex;
+
+    width: 100%;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 15px;
+    margin: auto;
+    color: rgb(31, 41, 55);
+    font-size: 1.3rem;
+    font-weight: 600;
+
+    justify-content: space-evenly;
+}
+.schudle {
+
+    border: 0px solid yellow;
+    width: 45%;
+
+}
+.button {
+    border: 0px solid red;
+    width: 50%;
+    display: block;
+    padding: 5px;
+
+
+    justify-content: space-evenly;
+}
+}
+/* -----------for Laptop screen----------- */
+@media screen and (min-width: 768px)  and (max-width:1024px){
+
+.main_div {
+    border: 0px solid green;
+
+    display: flex;
+
+    width: 100%;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 15px;
+    margin: auto;
+    color: rgb(31, 41, 55);
+    font-size: 1.3rem;
+    font-weight: 600;
+
+    justify-content: space-evenly;
+}
+.schudle {
+
+    border: 0px solid yellow;
+    width: 45%;
+
+}
+.button {
+    border: 0px solid red;
+    width: 50%;
+    display: flex;
+    padding: 5px;
+
+
+    justify-content: space-evenly;
+}
+}
+
+/* -----------for Default screen----------- */
+@media screen and (min-width: 1024px)  and (max-width:1280px){
+
+.main_div {
+    border: 0px solid green;
+
+    display: flex;
+
+    width: 100%;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 15px;
+    margin: auto;
+    color: rgb(31, 41, 55);
+    font-size: 1.3rem;
+    font-weight: 600;
+
+    justify-content: space-evenly;
+}
+.schudle {
+
+    border: 0px solid yellow;
+    width: 45%;
+
+}
+.button {
+    border: 0px solid red;
+    width: 50%;
+    display: flex;
+    padding: 5px;
+
+
+    justify-content: space-evenly;
+}
+}

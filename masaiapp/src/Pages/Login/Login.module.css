@@ -1,0 +1,61 @@
+#login_div {
+    border: 2px solid red;
+    width: 40%;
+    margin: 200px auto;
+    height: 500px;
+}
+#input {
+    height: 400px;
+}
+
+#logo_div {
+    border: 0px solid green;
+    height: 70px;
+}
+#logo_div img {
+    width: 40%;
+    border: 0px solid yellow;
+
+}
+#button {
+    background-color: rgb(31, 41, 55);
+    color: white;
+}
+
+#button:hover {
+    background-color: black;
+}
+#link_button {
+
+    width: 65%;
+    margin: 20px auto;
+    display: flex;
+    margin-left: 120px;
+    padding: 3px;
+    justify-content: space-between;
+
+}
+
+
+/* <-----------for empty div at home page-----------> */
+#datadiv{
+border: 0px solid red;
+width: 80%;
+margin: 50px auto;
+height: auto;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+border-radius: 10px;
+
+}
+#datadiv:hover{
+    background-color: #f9fafb;
+}
+#empty{
+border: 0px solid red;
+width: 100%;
+margin: 50px auto;
+height: 40px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+border-radius: 10px;
+
+}

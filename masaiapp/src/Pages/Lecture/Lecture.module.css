@@ -1,0 +1,139 @@
+#nav2_div {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.544);
+
+    width: 100%;
+    margin: auto;
+    height: 70px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+#heading_div {
+    width: 40%;
+    border: 0px solid green;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+#btn_div {
+    border: 0px solid blue;
+    width: 30%;
+}
+
+/* <------pagination part--- */
+#clickButton {
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+    background-color: #2536eb;
+}
+
+#pagination {
+    border: 0px solid red;
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#pagination button {
+    border: 0px solid black;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+#pagination_ul {
+    border: 0px solid green;
+    width: 100%;
+}
+#totalItems {
+    padding: 10px;
+    border: 0px solid rgb(105, 105, 38);
+
+    display: flex;
+    font-weight: bold;
+}
+/* <------pagination part--- */
+
+/* <-----------for mobile screen---------- */
+@media screen and (min-width: 280px) and (max-width: 420px) {
+    #leacture_div {
+        border: 0px solid red;
+        width: 100%;
+        padding: 20px;
+    }
+    #pagination {
+        border: 0px solid red;
+        width: 80%;
+        margin: 50px auto;
+        display: block;
+
+        justify-content: space-between;
+    }
+    #heading_div {
+        width: 30%;
+        border: 0px solid green;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-right: 80px;
+    }
+}
+/* <-----------for Tablet screen---------- */
+@media screen and (min-width: 421px) and (max-width: 767px) {
+    #leacture_div {
+        border: 0px solid red;
+        width: 100%;
+        padding: 20px;
+    }
+    #pagination {
+        border: 0px solid red;
+        width: 80%;
+        margin: 50px auto;
+        display: block;
+
+        justify-content: space-between;
+    }
+    #heading_div {
+        width: 30%;
+        margin-right: 120px;
+        border: 0px solid green;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+}
+/* <-----------for laptop screen---------- */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #nav2_div {
+        border-bottom: 1px solid rgba(128, 128, 128, 0.544);
+        /* border: 1px solid red; */
+        width: 100%;
+        margin: auto;
+        height: 70px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+    #leacture_div {
+        border: 0px solid red;
+        width: 100%;
+        padding: 20px;
+    }
+    #pagination {
+        border: 0px solid red;
+        width: 80%;
+        margin: 50px auto;
+        display: flex;
+
+        justify-content: space-between;
+    }
+    #heading_div {
+        width: 50%;
+        border: 0px solid green;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+}

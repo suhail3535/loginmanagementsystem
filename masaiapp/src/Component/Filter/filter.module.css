@@ -1,0 +1,206 @@
+#filter_div {
+
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#select_tag_div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+
+    width: 100%;
+    padding: 10px 0px;
+}
+
+#last_div {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+
+    width: 65%;
+    margin-top: 5px;
+}
+#button_div{
+    border: 0px solid green;
+    align-items: right;
+    width: 10%;
+
+
+}
+#reset_filter_btn {
+    background-color: #4f46e5;
+    width: 100%;
+    height: 40px;
+    align-items: right;
+    border: 0px solid red;
+    color: white;
+    margin: 5px auto;
+}
+
+#reset_filter_btn:hover {
+    border: solid transparent;
+    transition: border-width 0.6s linear;
+    background-color: rgba(0, 0, 0, 0.725);
+}
+
+
+/* <------------------for mobile screen---------> */
+@media screen and (min-width:280px) and (max-width:420px) {
+#filter_div {
+    border: 0px solid green;
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#select_tag_div {
+
+display:block;
+    margin-top: 5px;
+   border: 0px solid yellow;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+#last_div {
+    display: block;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border: 0px solid rgb(0, 255, 132);
+    width: 100%;
+    margin-top: 5px;
+}
+
+#button_div{
+    border: 0px solid green;
+    align-items: right;
+    width: 40%;
+    margin: auto;
+    margin-left: 180px;
+}
+#reset_filter_btn {
+    background-color: #4f46e5;
+    width: 100%;
+    height: 40px;
+    align-items: right;
+    border: 0px solid red;
+    color: white;
+    margin: 5px auto;
+}
+
+#reset_filter_btn:hover {
+    border:1px  solid  transparent;
+    transition: border-width 0.6s linear;
+    background-color: black;
+}
+}
+/* <------------------for Tablet screen---------> */
+@media screen and (min-width:421px) and (max-width:767px) {
+#filter_div {
+    border: 0px solid green;
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#select_tag_div {
+
+display:block;
+    margin-top: 10px;
+   border: 0px solid yellow;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+#last_div {
+    display: block;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border: 0px solid rgb(0, 255, 132);
+    width: 100%;
+    margin-top: 5px;
+}
+
+#button_div{
+    border: 0px solid green;
+    align-items: right;
+    width: 40%;
+    margin: 20px auto;
+    margin-left: 180px;
+}
+#reset_filter_btn {
+    background-color: #4f46e5;
+    width: 100%;
+    height: 40px;
+    align-items: right;
+    border: 0px solid red;
+    color: white;
+    margin: 5px auto;
+}
+
+#reset_filter_btn:hover {
+    border:1px  solid  transparent;
+    transition: border-width 0.6s linear;
+    background-color: black;
+}
+}
+/* <------------------for Laptop screen---------> */
+@media screen and (min-width:768px) and (max-width:1024px) {
+#filter_div {
+    border: 0px solid green;
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#select_tag_div {
+
+display:block;
+    margin-top: 10px;
+   border: 0px solid yellow;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+#last_div {
+    display: block;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border: 0px solid rgb(0, 255, 132);
+    width: 100%;
+    margin-top: 5px;
+}
+
+#button_div{
+    border: 0px solid green;
+    align-items: right;
+    width: 40%;
+    margin: 20px auto;
+    margin-left: 180px;
+}
+#reset_filter_btn {
+    background-color: #4f46e5;
+    width: 100%;
+    height: 40px;
+    align-items: right;
+    border: 0px solid red;
+    color: white;
+    margin: 5px auto;
+}
+
+#reset_filter_btn:hover {
+    border:1px  solid  transparent;
+    transition: border-width 0.6s linear;
+    background-color: black;
+}
+}

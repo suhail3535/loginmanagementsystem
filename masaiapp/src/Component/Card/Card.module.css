@@ -1,0 +1,353 @@
+#main {
+    border: 0px solid gray;
+    width: 80%;
+    height: auto;
+
+    /* align-items: center; */
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    cursor: pointer;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#main:hover {
+    background-color: #f9fafb;
+}
+#title {
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system,
+        BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+        "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+        "Segoe UI Symbol", "Noto Color Emoji";
+    border: 0px solid yellow;
+    font-weight: 450;
+    text-align: left;
+    font-size: 21px;
+    color: #5e58e5;
+    padding: 5px;
+}
+#div_one {
+    border: 0px solid rgb(255, 0, 251);
+    width: 90%;
+    height: auto;
+}
+
+#author {
+    border: 0px solid red;
+    text-align: left;
+    padding: 5px;
+}
+
+#div_present {
+    border: 0px solid rgb(0, 21, 255);
+
+    height: auto;
+    border-radius: 1px;
+    padding: 2px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #22c55e;
+}
+#div_absent {
+    border: 0px solid rgb(0, 247, 255);
+
+    height: auto;
+    border-radius: 1px;
+    padding: 2px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #ef4444;
+}
+#video {
+    background-color: rgb(34, 69, 197);
+    padding: 3px 5px;
+    font-size: 12px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: 0px solid yellow;
+}
+#live {
+    background-color: rgb(34, 197, 94);
+    padding: 1px 6px;
+    font-size: 12px;
+    color: white;
+    border-radius: 5px;
+    border: 0px solid pink;
+    margin-left: 10px;
+}
+/* <-----------for mobile screen----------> */
+@media screen and (min-width: 280px) and (max-width: 420px) {
+    #main {
+        border: 0px solid gray;
+        width: 100%;
+
+        height: auto;
+
+        align-items: center;
+        padding: 15px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+        cursor: pointer;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    #main:hover {
+        background-color: #f9fafb;
+    }
+    #title {
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system,
+            BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+            "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+            "Segoe UI Symbol", "Noto Color Emoji";
+        border: 0px solid yellow;
+        font-weight: 450;
+        text-align: left;
+        font-size: 21px;
+        color: #5e58e5;
+        padding: 5px;
+    }
+    #author {
+        border: 0px solid red;
+        text-align: left;
+        padding: 5px;
+    }
+    #div_one {
+        border: 0px solid rgb(255, 0, 251);
+        width: 90%;
+        height: auto;
+
+        margin: auto;
+    }
+
+    #div_present {
+        border: 0px solid rgb(0, 21, 255);
+        width: 20%;
+        height: auto;
+        border-radius: 1px;
+        padding: 2px;
+        margin: auto;
+        color: white;
+        text-align: center;
+        align-items: center;
+        font-family: sans-serif;
+        background-color: #22c55e;
+    }
+    #div_absent {
+        border: 0px solid rgb(0, 247, 255);
+        width: 20%;
+        height: auto;
+        border-radius: 1px;
+        /* padding: 2px; */
+        margin: auto;
+        color: white;
+        text-align: center;
+        align-items: center;
+        font-family: sans-serif;
+        background-color: #ef4444;
+    }
+    #video {
+        background-color: rgb(34, 69, 197);
+        padding: 3px 5px;
+        font-size: 12px;
+        color: white;
+        border-radius: 5px;
+        margin-left: 10px;
+        border: 0px solid yellow;
+    }
+    #live {
+        background-color: rgb(34, 197, 94);
+        padding: 1px 6px;
+        font-size: 12px;
+        color: white;
+        border-radius: 5px;
+        border: 0px solid pink;
+        margin-left: 10px;
+    }
+}
+
+/* <-----------for Tablet screen----------> */
+@media screen and (min-width: 421px) and (max-width: 768px) {
+    #main {
+        border: 0px solid gray;
+        width: 100%;
+
+        height: auto;
+
+        align-items: center;
+        padding: 15px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+        cursor: pointer;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    #main:hover {
+        background-color: #f9fafb;
+    }
+    #title {
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system,
+            BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+            "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+            "Segoe UI Symbol", "Noto Color Emoji";
+        border: 0px solid yellow;
+        font-weight: 450;
+        text-align: left;
+        font-size: 21px;
+        color: #5e58e5;
+        padding: 5px;
+    }
+    #author {
+        border: 0px solid red;
+        text-align: left;
+        padding: 5px;
+    }
+    #div_one {
+        border: 0px solid rgb(255, 0, 251);
+        width: 90%;
+        height: auto;
+
+        margin: auto;
+    }
+
+    #div_present {
+        border: 0px solid rgb(0, 21, 255);
+    
+        height: auto;
+        border-radius: 1px;
+        padding: 2px;
+        margin: auto;
+        color: white;
+        text-align: center;
+        align-items: center;
+        font-family: sans-serif;
+        background-color: #22c55e;
+    }
+    #div_absent {
+        border: 0px solid rgb(0, 247, 255);
+
+        height: auto;
+        border-radius: 1px;
+
+        margin: auto;
+        color: white;
+        text-align: center;
+        align-items: center;
+        font-family: sans-serif;
+        background-color: #ef4444;
+    }
+    #video {
+        background-color: rgb(34, 69, 197);
+        padding: 3px 5px;
+        font-size: 12px;
+        color: white;
+        border-radius: 5px;
+        margin-left: 10px;
+        border: 0px solid yellow;
+    }
+    #live {
+        background-color: rgb(34, 197, 94);
+        padding: 1px 6px;
+        font-size: 12px;
+        color: white;
+        border-radius: 5px;
+        border: 0px solid pink;
+        margin-left: 10px;
+    }
+}
+
+/* <-----------for Laptop screen----------> */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #main {
+        border: 0px solid gray;
+        width: 90%;
+
+        height: auto;
+
+        align-items: center;
+        padding: 15px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+        cursor: pointer;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    #main:hover {
+        background-color: #f9fafb;
+    }
+    #title {
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system,
+            BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+            "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+            "Segoe UI Symbol", "Noto Color Emoji";
+        border: 0px solid yellow;
+        font-weight: 450;
+        text-align: left;
+        font-size: 21px;
+        color: #5e58e5;
+        padding: 5px;
+    }
+    #author {
+        border: 0px solid red;
+        text-align: left;
+        padding: 5px;
+    }
+    #div_one {
+        border: 0px solid rgb(255, 0, 251);
+        width: 90%;
+        height: auto;
+
+        margin: auto;
+    }
+
+    #div_present {
+        border: 0px solid rgb(0, 21, 255);
+        width: 10%;
+        height: auto;
+        border-radius: 1px;
+        padding: 2px;
+        margin: auto;
+        color: white;
+        text-align: center;
+        align-items: center;
+        font-family: sans-serif;
+        background-color: #22c55e;
+    }
+    #div_absent {
+        border: 0px solid rgb(0, 247, 255);
+        width: 10%;
+        height: auto;
+        border-radius: 1px;
+        /* padding: 2px; */
+        margin: auto;
+        color: white;
+        text-align: center;
+        align-items: center;
+        font-family: sans-serif;
+        background-color: #ef4444;
+    }
+    #video {
+        background-color: rgb(34, 69, 197);
+        padding: 3px 5px;
+        font-size: 12px;
+        color: white;
+        border-radius: 5px;
+        margin-left: 10px;
+        border: 0px solid yellow;
+    }
+    #live {
+        background-color: rgb(34, 197, 94);
+        padding: 1px 6px;
+        font-size: 12px;
+        color: white;
+        border-radius: 5px;
+        border: 0px solid pink;
+        margin-left: 10px;
+    }
+}

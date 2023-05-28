@@ -1,0 +1,420 @@
+#main {
+    border: 0px solid gray;
+    width: 80%;
+    border-radius: 5px 5px 0px 0px;
+    height: auto;
+   align-items: center;
+
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    cursor: pointer;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#main:hover{
+    background-color: #f9fafb;
+}
+#title {
+font-family: sans-serif;
+
+    font-weight: 450;
+    font-size: 17px;
+}
+#div_one {
+    border: 0px solid rgb(255, 0, 251);
+    width: 40%;
+    height: auto;
+    color: black;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#details_div {
+    border: 0px solid red;
+    width: 18%;
+    padding: 5px;
+    font-weight: 400;
+}
+#duration_div {
+    border: 0px solid rgb(98, 255, 0);
+    padding: 5px;
+    width: 40%;
+    margin: auto;
+
+}
+#duration{
+    border: 0px solid rgb(106, 0, 255);
+    margin-left: 12px;
+}
+#user{
+    border: 0px solid rgb(128, 0, 107);
+    display: flex;
+    padding: 10px;
+    width: 60%;
+    justify-content: space-between;
+    color: gray;
+}
+
+#author{
+    border: 0px solid blue;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+span {
+    border: 0px solid green;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#bluediv {
+    height: 112px;
+    width: 0.6%;
+    background-color: #818cf8;
+    border: 0px solid red;
+    border-radius: 5px 0px 0px 5px;
+
+}
+#logo1 {
+     width: 10%;
+     border: 0px solid rgb(0, 255, 213);
+     background-color: #cfddfb;
+     padding: 10px;
+     border-radius: 100%;
+}
+#logo1 p {
+    border: 0px solid yellow;
+  font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: #6b93eaaf;
+}
+#spandiv span{
+    border: 0px solid blue;
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+    margin-right: 20px;
+
+}
+
+
+/* <----------for mobile screen------> */
+@media screen and (min-width:280px) and (max-width: 420px) {
+#main {
+    border: 0px solid gray;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    height: auto;
+   align-items: center;
+
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    cursor: pointer;
+    margin: auto;
+    }
+#main:hover{
+    background-color: #f9fafb;
+}
+#title {
+font-family: sans-serif;
+
+    font-weight: 450;
+    font-size: 17px;
+}
+#div_one {
+    border: 0px solid rgb(255, 0, 251);
+    width: 100%;
+    height: auto;
+    color: black;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+#logo1 {
+
+     border: 0px solid rgb(0, 255, 213);
+     background-color: #cfddfb;
+       margin-right: 10px;
+     border-radius: 100%;
+     align-items: center;
+}
+#logo1 p {
+    border: 0px solid yellow;
+    text-align: center;
+    color: #6b93eaaf;
+    padding-right: 30px;
+}
+#details_div {
+    border: 0px solid red;
+
+    padding: 5px;
+    font-weight: 400;
+}
+#duration_div {
+    border: 0px solid rgb(98, 255, 0);
+    padding: 5px;
+    width: 100%;
+    display: none;
+    margin: auto;
+
+}
+
+#user{
+    border: 0px solid rgb(128, 0, 107);
+    display: flex;
+    padding: 10px;
+    /* width: 60%; */
+    justify-content: space-between;
+    color: gray;
+}
+
+#author{
+    border: 0px solid blue;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+span {
+    border: 0px solid green;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#bluediv {
+    height: 112px;
+    width: 0.6%;
+    background-color: #818cf8;
+    border: 0px solid red;
+    border-radius: 5px 0px 0px 5px;
+
+}
+
+#spandiv span{
+    border: 0px solid blue;
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+    display: none;
+    margin-right: 20px;
+
+}
+
+
+
+
+}
+
+
+/* <----------for tablet screen------> */
+@media screen and (min-width:421px) and (max-width: 767px) {
+#main {
+    border: 0px solid gray;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    height: auto;
+   align-items: center;
+
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    cursor: pointer;
+    margin: auto;
+    }
+#main:hover{
+    background-color: #f9fafb;
+}
+#title {
+font-family: sans-serif;
+
+    font-weight: 450;
+    font-size: 17px;
+}
+#div_one {
+    border: 0px solid rgb(255, 0, 251);
+    width: 100%;
+    height: auto;
+    color: black;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+#logo1 {
+
+     border: 0px solid rgb(0, 255, 213);
+     background-color: #cfddfb;
+       margin-right: 10px;
+     border-radius: 100%;
+     align-items: center;
+}
+#logo1 p {
+    border: 0px solid yellow;
+    text-align: center;
+    color: #6b93eaaf;
+    padding-right: 30px;
+}
+#details_div {
+    border: 0px solid red;
+
+    padding: 5px;
+    font-weight: 400;
+}
+#duration_div {
+    border: 0px solid rgb(98, 255, 0);
+    padding: 5px;
+    width: 100%;
+    display: none;
+    margin: auto;
+
+}
+
+#user{
+    border: 0px solid rgb(128, 0, 107);
+    display: flex;
+    padding: 10px;
+    /* width: 60%; */
+    justify-content: space-between;
+    color: gray;
+}
+
+#author{
+    border: 0px solid blue;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+span {
+    border: 0px solid green;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#bluediv {
+    height: 112px;
+    width: 0.6%;
+    background-color: #818cf8;
+    border: 0px solid red;
+    border-radius: 5px 0px 0px 5px;
+
+}
+
+#spandiv span{
+    border: 0px solid blue;
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+    display: none;
+    margin-right: 20px;
+
+}
+
+
+
+
+}
+
+/* <----------for laptop screen------> */
+@media screen and (min-width:768px) and (max-width: 1024px) {
+#main {
+    border: 0px solid gray;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    height: auto;
+    align-items: center;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    cursor: pointer;
+    margin: auto;
+    }
+#main:hover{
+    background-color: #f9fafb;
+}
+#title {
+font-family: sans-serif;
+
+    font-weight: 450;
+    font-size: 17px;
+}
+#div_one {
+    border: 0px solid rgb(255, 0, 251);
+    width: 100%;
+    height: auto;
+    color: black;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+#logo1 {
+
+     border: 0px solid rgb(0, 255, 213);
+     background-color: #cfddfb;
+       margin-right: 10px;
+     border-radius: 100%;
+     align-items: center;
+}
+#logo1 p {
+    border: 0px solid yellow;
+    text-align: center;
+    color: #6b93eaaf;
+    padding-right: 30px;
+}
+#details_div {
+    border: 0px solid red;
+
+    padding: 5px;
+    font-weight: 400;
+}
+#duration_div {
+    border: 0px solid rgb(98, 255, 0);
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+
+}
+
+#user{
+    border: 0px solid rgb(128, 0, 107);
+    display: flex;
+    padding: 10px;
+    /* width: 60%; */
+    justify-content: space-between;
+    color: gray;
+}
+
+#author{
+    border: 0px solid blue;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+span {
+    border: 0px solid green;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#bluediv {
+    height: 112px;
+    width: 0.6%;
+    background-color: #818cf8;
+    border: 0px solid red;
+    border-radius: 5px 0px 0px 5px;
+
+}
+
+#spandiv span{
+    border: 0px solid blue;
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+    
+    margin-right: 20px;
+
+}
+
+
+
+
+}
