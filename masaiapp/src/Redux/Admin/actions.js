@@ -89,10 +89,22 @@ export const getRequestAssisgnment = () => (dispatch) => {
             dispatch(get_failure());
         });
 };
+// <------------for Quiz page----------->
+export const getRequestQuiz = () => (dispatch) => {
+    dispatch(get_Request());
+    axios
+        .get("https://shy-puce-lemming-tux.cyclic.app/quiz")
+        .then((res) => {
+            console.log(res.data, "quiz");
+            dispatch(getdataSuccess(res.data));
+        })
+        .then((error) => {
+            dispatch(get_failure());
+        });
+};
 
 
-
-export const deletedata = (id) => (dispatch) => {
+ export const deletedata = (id) => (dispatch) => {
     dispatch(get_Request());
     return axios
         .delete(`https://shy-puce-lemming-tux.cyclic.app/schedule/${id}`)

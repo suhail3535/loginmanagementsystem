@@ -1,0 +1,208 @@
+#nav2_div {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.544);
+
+    width: 100%;
+    margin: auto;
+    height: 70px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+#heading_div {
+    width: 40%;
+    border: 0px solid green;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+#btn_div {
+    border: 0px solid blue;
+    width: 30%;
+}
+#tab_div {
+    border: 0px solid red;
+    width: 80%;
+    margin: 40px auto;
+}
+
+#main_container {
+    border :0px solid red;
+    width :100%
+}
+/* <-----------Tabcomponent css--------> */
+
+#inp {
+    border: 0px solid rgb(255, 0, 208);
+    width: 20%;
+}
+#main_tab {
+    border: 0px solid yellow;
+}
+#tablist_div {
+border: 0px solid red;
+    display: flex;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+#tablist {
+border: 0px solid yellow;
+    display: flex;
+    justify-content: space-around;
+
+    width: 60%;
+}
+.tab {
+
+    width: 50%;
+}
+.tab_pannels2{
+    border:0px solid rgb(255, 0, 238);
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* <-------for mobile view------> */
+@media screen and (min-width:280px) and (max-width:420px) {
+#inp {
+    border: 0px solid rgb(255, 0, 208);
+    width: 20%;
+}
+#main_tab {
+    border:0px solid rgb(0, 255, 221);
+}
+#tablist_div {
+border:0px solid red;
+    display: flex;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    justify-content: space-between;
+
+    width: 100%;
+}
+#heading_div {
+    width: 50%;
+     border: 0px solid green;
+font-size: 20px;
+font-weight: 600;
+    margin-top: 10px;
+}
+#tablist {
+border: 0px solid yellow;
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+}
+.tab {
+
+    width: 50%;
+}
+.tab_pannels2{
+    border:0px solid rgb(255, 0, 238);
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+
+
+}
+
+/* <-------for Tablet view------> */
+@media screen and (min-width:421px) and (max-width:767px) {
+#inp {
+    border: 0px solid rgb(255, 0, 208);
+    width: 20%;
+}
+#main_tab {
+    border:0px solid rgb(0, 255, 221);
+}
+#tablist_div {
+border:0px solid red;
+    display: flex;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    justify-content: space-between;
+
+    width: 100%;
+}
+#heading_div {
+    width: 35%;
+     border: 0px solid rgb(0, 47, 128);
+font-size: 20px;
+font-weight: 600;
+    margin-top: 10px;
+}
+#tablist {
+border: 0px solid yellow;
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+}
+.tab {
+
+    width: 50%;
+}
+.tab_pannels2{
+    border:0px solid rgb(255, 0, 238);
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+
+
+}
+/* <-------for Laptop view------> */
+@media screen and (min-width:768px) and (max-width:1024px) {
+#inp {
+    border: 0px solid rgb(255, 0, 208);
+    width: 20%;
+}
+#main_tab {
+    border:0px solid rgb(0, 255, 221);
+}
+#heading_div {
+    width: 25%;
+     border: 0px solid rgb(30, 0, 128);
+font-size: 20px;
+font-weight: 600;
+    margin-top: 10px;
+}
+#tablist_div {
+border:0px solid red;
+    display: flex;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+#tablist {
+border: 0px solid yellow;
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+}
+.tab {
+
+    width: 50%;
+}
+.tab_pannels2{
+    border:0px solid rgb(255, 0, 238);
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+
+
+}
