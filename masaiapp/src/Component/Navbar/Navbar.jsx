@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import {
@@ -17,8 +17,12 @@ import MobileNav from "./Dropdown";
 
 let userData = JSON.parse(localStorage.getItem("userData")) || [];
 console.log(userData.email, "from login");
-function Navbar() {
+function Navbar () {
+    const navigate=useNavigate()
     const { isOpen, onOpen, onClose } = useDisclosure();
+    const handleSignout = () => {
+    navigate("/");
+}
     return (
         <div id="nav-menu" className="navbar">
             <div className="wrapper">
@@ -244,7 +248,7 @@ function Navbar() {
                                     </div>
                                     <div>
                                         <Link
-                                            to="announcement"
+                                            to="/announcement"
                                             smooth={true}
                                             offset={-79}
                                             duration={500}
@@ -260,6 +264,16 @@ function Navbar() {
                                             duration={500}
                                             onClick={onClose}>
                                             Bounty Program
+                                        </Link>
+                                    </div>
+                                    <div>
+                                        <Link
+                                            to="/"
+                                            smooth={true}
+                                            offset={-79}
+                                            duration={500}
+                                            onClick={handleSignout}>
+                                            SignOut
                                         </Link>
                                     </div>
                                 </div>

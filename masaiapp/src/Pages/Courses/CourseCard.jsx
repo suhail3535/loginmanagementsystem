@@ -21,7 +21,7 @@ const CourseCard = () => {
                         <span id={style.spantag}> Available</span>
                     </p>
                     <p className={style.p}>
-                        <a id={style.atag} href="/#">
+                        <a id={style.atag} href="#">
                             Schedule Event <span>&#8594;</span>
                         </a>
                     </p>
@@ -71,8 +71,8 @@ const CourseCard = () => {
                         Pair Programming{" "}
                         <span id={style.spantag}> Available</span>
                     </p>
-                    <p className={style.p}>
-                        <a href="/#">
+                    <p className={style.ptag}>
+                        <a href="#">
                             Schedule Event <span>&#8594;</span>
                         </a>
                     </p>

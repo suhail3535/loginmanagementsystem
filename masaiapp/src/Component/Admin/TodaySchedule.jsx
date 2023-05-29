@@ -91,9 +91,7 @@ const handleSearch = (event) => {
         )
         .slice(indexOfFirstItem, indexOfLastItem);
 
-    const paginate = (pageNumber) => {
-        setCurrentPage(pageNumber);
-    };
+
 
     return (
         <div id={style.maincont}>
@@ -122,12 +120,7 @@ const handleSearch = (event) => {
                 )}
             </div>
 
-            <div id={style.pagination}>
-                <div id={style.totalItems}></div>
-                <div>
-                    
-                </div>
-            </div>
+    
         </div>
     );
 };

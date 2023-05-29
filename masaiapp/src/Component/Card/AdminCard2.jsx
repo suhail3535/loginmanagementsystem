@@ -2,14 +2,14 @@ import React from "react";
 import style from "./Admincard.module.css";
 import { Highlight } from "@chakra-ui/react";
 import Swal from "sweetalert2";
-import { deletedata, getRequest } from "../../Redux/Admin/actions.js";
+import { deletedata, deletelecturedata, getRequest } from "../../Redux/Admin/actions.js";
 
 import { useDispatch } from "react-redux";
-const AdminCard = ({ id,title, author, attendence }) => {
+const AdminCard2 = ({ id,title, author, attendence }) => {
 
       const dispatch = useDispatch();
     const handleDelete = (id) => {
-    
+
         Swal.fire({
             title: "Are you sure?",
             text: "You won't be able to revert this!",
@@ -23,7 +23,7 @@ const AdminCard = ({ id,title, author, attendence }) => {
                 Swal.fire("Deleted!", "Your file has been deleted.", "success");
             }
         });
-        dispatch(deletedata(id)).then(() => dispatch(getRequest()));
+        dispatch(deletelecturedata(id)).then(() => dispatch(getRequest()));
 
     };
 
@@ -74,4 +74,4 @@ const AdminCard = ({ id,title, author, attendence }) => {
     );
 };
 
-export default AdminCard;
+export default AdminCard2;

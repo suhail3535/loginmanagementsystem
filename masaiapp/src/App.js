@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <Allroutes />
+      {/* <h1>suhail khan</h1> */}
     </div>
   );
 }

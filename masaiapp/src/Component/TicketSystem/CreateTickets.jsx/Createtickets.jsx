@@ -103,7 +103,7 @@ const Createtickets = () => {
                 <div id={style.bttn_div}>
                     <Button onClick={handleSubmit} id={style.bttn}>
                         CREATE
-                    </Button>{" "}
+                    </Button>
                 </div>
             </div>
         </div>

@@ -103,7 +103,7 @@ export const getRequestQuiz = () => (dispatch) => {
         });
 };
 
-
+// < -----------for Scheduledelete---------->
  export const deletedata = (id) => (dispatch) => {
     dispatch(get_Request());
     return axios
@@ -116,6 +116,20 @@ export const getRequestQuiz = () => (dispatch) => {
             dispatch(get_failure());
         });
 };
+
+// < -----------for lecturedelete---------->
+ export const deletelecturedata = (id) => (dispatch) => {
+     dispatch(get_Request());
+     return axios
+         .delete(`https://shy-puce-lemming-tux.cyclic.app/lecture/${id}`)
+         .then((res) => {
+             console.log(res.data);
+             dispatch(get_success());
+         })
+         .catch((err) => {
+             dispatch(get_failure());
+         });
+ };
 
 export const editProduct = (id, newData) => (dispatch) => {
     dispatch(get_Request());

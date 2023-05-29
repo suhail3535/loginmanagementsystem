@@ -15,9 +15,7 @@ import Notifivation from "../Pages/Notification/Notifivation";
 import LoginTicket from "../Component/TicketSystem/LoginPannel/LoginTicket";
 import Createtickets from "../Component/TicketSystem/CreateTickets.jsx/Createtickets";
 import { Admin } from "../Pages/Admin";
-
 import Modelcom from "../Component/Admin/Tickets/Modal";
-
 
 const Allroutes = () => {
     return (
@@ -35,17 +33,11 @@ const Allroutes = () => {
                 <Route path="/createticket" element={<Createtickets />} />
                 <Route path="/bounty" element={<Bounty />} />
                 <Route path="/announcement" element={<Announcement />} />
-             <Route path="/dashbord" element={<Dashbord />} />
-            <Route path="/filter" element={<Filter />} />
+                <Route path="/dashbord" element={<Dashbord />} />
+                <Route path="/filter" element={<Filter />} />
 
-
-
-
-
-
-            <Route path="/admin" element={<Admin />} /> 
-            <Route path="/modal" element={<Modelcom />} />
-
+                <Route path="/admin" element={<Admin />} />
+                <Route path="/modal" element={<Modelcom />} />
             </Routes>
         </div>
     );

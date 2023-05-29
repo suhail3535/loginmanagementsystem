@@ -1,12 +1,24 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 import style from "./AllLecture.module.css";
 import Filter from "../Filter/Filter";
 import AdminCard from "../Card/AdminCard";
 import { getRequestLecture } from "../../Redux/Admin/actions";
 import { useDispatch, useSelector } from "react-redux";
+import Pagination from "../Pagination";
+import AdminCard2 from "../Card/AdminCard2";
 
 const AllLecture = () => {
+        const [data, setData] = useState([]);
+        const [isFilterReset, setIsFilterReset] = useState(true);
+        const [searchQuery, setSearchQuery] = useState("");
+        const [category, setcategory] = useState("");
+        const [instructure, setinstructure] = useState("");
+        const [type, settype] = useState("");
+        const [optional, setoptional] = useState("");
+        const [selectedDate, setSelectedDate] = useState("");
+        const [currentPage, setCurrentPage] = useState(1);
+        const [itemsPerPage] = useState(16);
     const dispatch = useDispatch();
 
     const newdata = useSelector((store) => store.AdminReducer.lecture);
@@ -14,21 +26,93 @@ const AllLecture = () => {
     useEffect(() => {
         dispatch(getRequestLecture());
     }, []);
+    const handleSearch = (event) => {
+        setSearchQuery(event.target.value);
+    };
 
+    const handleReset = () => {
+        setSearchQuery("");
+        setcategory("");
+        setinstructure("");
+        settype("");
+        setoptional("");
+        setSelectedDate("");
+        setIsFilterReset(true);
+    };
+
+    const handleCategoryChange1 = (event) => {
+        const selectedCategory = event.target.value;
+        setcategory(selectedCategory);
+        setIsFilterReset(false);
+    };
+
+    const handleCategoryChange2 = (event) => {
+        const selectedCategory = event.target.value;
+        setinstructure(selectedCategory);
+        setIsFilterReset(false);
+    };
+
+    const handleCategoryChange3 = (event) => {
+        const selectedCategory = event.target.value;
+        settype(selectedCategory);
+        setIsFilterReset(false);
+    };
+
+    const handleCategoryChange4 = (event) => {
+        const selectedCategory = event.target.value;
+        setoptional(selectedCategory);
+        setIsFilterReset(false);
+    };
+    const indexOfLastItem = currentPage * itemsPerPage;
+    const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+    const currentItems = newdata
+
+        .filter(
+            (ele) =>
+                (!category || ele.category === category) &&
+                (!instructure || ele.instructure === instructure) &&
+                (!type || ele.type === type) &&
+                (!optional || ele.optional === optional) &&
+                (!selectedDate || ele.date === selectedDate) &&
+                ele.title.toLowerCase().includes(searchQuery.toLowerCase())
+        )
+
+        .slice(indexOfFirstItem, indexOfLastItem);
+
+    const paginate = (pageNumber) => {
+        setCurrentPage(pageNumber);
+    };
     return (
         <div id={style.maincont}>
             <div style={{ marginLeft: "60px" }}>
-                <Filter />
+                <Filter
+                    searchQuery={searchQuery}
+                    handleSearch={handleSearch}
+                    handleReset={handleReset}
+                    selectedDate={selectedDate}
+                    handleCategoryChange1={handleCategoryChange1}
+                    handleCategoryChange2={handleCategoryChange2}
+                    handleCategoryChange3={handleCategoryChange3}
+                    handleCategoryChange4={handleCategoryChange4}
+                />
             </div>
 
             <div id={style.schdle}>
-                {newdata.length > 0 &&
-                    newdata.map((ele) => <AdminCard key={ele.id} {...ele} />)}
+                {currentItems.map((ele) => <AdminCard2 key={ele.id} {...ele} />)}
             </div>
 
             <div id={style.pagination}>
-                <div id={style.totalItems}></div>
-                <div></div>
+                <div id={style.totalItems}>
+                    Showing {itemsPerPage} out of {newdata.length} results.
+                </div>
+                <div>
+                    <Pagination
+                        itemsPerPage={itemsPerPage}
+                        totalItems={newdata.length}
+                        currentPage={currentPage}
+                        paginate={paginate}
+                    />
+                </div>
             </div>
         </div>
     );

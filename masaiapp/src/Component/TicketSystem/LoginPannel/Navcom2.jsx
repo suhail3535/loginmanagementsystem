@@ -20,7 +20,7 @@ import {
 
 const userData = JSON.parse(localStorage.getItem("userData")) || [];
 
-let x = userData.email[0].toUpperCase()
+// let x = userData?.email[0]?.toUpperCase()
 const Navcom2 = () => {
     const navigate=useNavigate()
     const handleSubmit = () => {
@@ -64,15 +64,14 @@ navigate("/ticketpannel");
                         <div>
                             <Popover>
                                 <PopoverTrigger>
-                                    <p>{x}</p>
+                                    <p style={{fontWeight:"bold"}}>S</p>
                                 </PopoverTrigger>
                                 <Portal>
                                     <PopoverContent>
-                                        <PopoverArrow />
                                         <PopoverHeader></PopoverHeader>
                                         <PopoverCloseButton />
                                         <PopoverBody>
-                                            <p id={style.model}>{x}</p>
+                                            {/* <p id={style.model}>{x}</p> */}
                                             <span>{userData.email}</span>
                                         </PopoverBody>
 

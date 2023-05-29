@@ -110,6 +110,12 @@ border: 0px solid green;
     font-weight: bold;
     text-decoration: underline;
 }
+.ptag a {
+    color: rgba(109, 109, 238, 0.963);
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+}
 
 a span {
     font-size: 20px;
