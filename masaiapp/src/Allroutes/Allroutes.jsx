@@ -16,6 +16,7 @@ import LoginTicket from "../Component/TicketSystem/LoginPannel/LoginTicket";
 import Createtickets from "../Component/TicketSystem/CreateTickets.jsx/Createtickets";
 import { Admin } from "../Pages/Admin";
 import Modelcom from "../Component/Admin/Tickets/Modal";
+import DrawerExample from "../Component/Admin/Tickets/Modal";
 
 const Allroutes = () => {
     return (
@@ -37,7 +38,7 @@ const Allroutes = () => {
                 <Route path="/filter" element={<Filter />} />
 
                 <Route path="/admin" element={<Admin />} />
-                <Route path="/modal" element={<Modelcom />} />
+                <Route path="/modal" element={<DrawerExample />} />
             </Routes>
         </div>
     );

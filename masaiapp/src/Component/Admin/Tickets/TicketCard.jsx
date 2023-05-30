@@ -7,8 +7,8 @@ const TicketCard = ({ id, category, title, description }) => {
     const navigate = useNavigate();
 
     const handleClick = () => {
-        // navigate("/home");
-    
+        navigate("/model");
+
     };
     return (
         <>
@@ -37,7 +37,7 @@ const TicketCard = ({ id, category, title, description }) => {
                                     backgroundColor: "white",
                                 }}
                                 icon={<CiEdit />}
-                                >
+                                onClick={handleClick}>
                                 Resolve
                             </MenuItem>
                             <MenuItem

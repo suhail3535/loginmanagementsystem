@@ -2,3 +2,12 @@
   width: 100%;
   overflow: hidden;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+* {
+
+font-family: 'Alata', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+}
