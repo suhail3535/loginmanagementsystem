@@ -6,50 +6,13 @@ Masai School's student login management system allows students to access upcomin
 ## Deployment Link :https://masaiapp-suhail3535.vercel.app/
 
 
-## API Reference
-
-#### Get all items
-
-```http
-  GET https://thinkable-slope-suhail3535.vercel.app/
-```
-
-| End Point| Type     | Description                |
-| :-------- | :------- | :---------------------- |
-| `women` | `string` | **Required**. Women page |
-| `men` | `string` | **Required**. men page |
-| `clearence` | `string` | **Required**. clearence page |
-| `cart` | `string` | **Required**. cart page|
-| `address` | `string` | **Required**. user shipping address |
-
-
-
-
 ## Tech Stack
 
-**Front-end :** React, Redux, Chakra UI, Material UI
+**Front-end :** React, Redux, Chakra UI, Material UI,BootStrap
 
 **Back-end :** JSON-Server
 
-## Color Reference
 
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Primary | ![#17274a](https://via.placeholder.com/10/17274a?text=+) #17274a |
-| Secondary | ![#ee5e68](https://via.placeholder.com/10/ee5e68?text=+) #ee5e68 |
-
-
-
-## Badges
-
-
-
-
-[![](https://img.shields.io/github/last-commit/suhail3535/thinkable-slope-4107?logo=Aerowear&style=for-the-badge)]()
-
-[![](https://img.shields.io/github/contributors-anon/suhail3535/thinkable-slope-4107?style=for-the-badge)]()
-
-[![](https://img.shields.io/github/languages/count/suhail3535/thinkable-slope-4107?style=for-the-badge)]()
 
 
 ## Deployment
@@ -57,8 +20,8 @@ Masai School's student login management system allows students to access upcomin
 To deploy this project run
 
 ```bash
-npm run build
-npm run deploy
+npx vercel
+
 ```
 
 
@@ -66,34 +29,35 @@ npm run deploy
 
 - Navbar
 - Landing page
-- Women page
-- Men page
-- Clearence page
-- Admin page
-- Landing page
-- Single product page
-- Cart section
-- Payment page
-- Payment method
-- Payment succesfull page
+- Lecture Section
+- Assignment Section
+- Quiz Section
+- Notification Section
+- Elective Section
+- Ticket Section
+- Bouty Program Section
+- Admin Section 
+
 
 ## Features
 - Get Request Api call
 - Post Request Api call
 - Patch Request Api call
 - Delete Request Api call
-- User Register
-- User login
-- User profile show after login
-- Admin Register
-- Admin login
-- Add product
-- Delete product
-- Edit product
-- Sorting & filter
-- Search functionality (Women page and Men Page)
-# Note-For admin login we set a preRegister email and password after admin login,only Admin can register new admin.
 
+- Student login
+- Student profile show after login
+
+- Admin login
+- Add Lecture and Schedule
+- Delete Lecture
+
+- Sorting & filter according to lecture and assignment
+- Search functionality 
+# Note-For admin login we set a preRegister email and password after admin login.
+
+  email-admin@gmail.com
+  pass-admin123
 
 ## ScreenShots
 ### 1. Homepage
