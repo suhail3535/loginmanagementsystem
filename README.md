@@ -27,7 +27,7 @@ npx vercel
 - Elective Section
 - Coures Section
 - Ticket Section
-- Bouty Program Section
+- Bounty Program Section
 - Admin Section 
 
 
