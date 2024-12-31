@@ -24,7 +24,7 @@ export const getdataSuccess = (payload) => {
 export const postData = (payload) => (dispatch) => {
     dispatch(get_Request());
     axios
-        .post("https://shy-puce-lemming-tux.cyclic.app/schedule", payload)
+        .post("https://json-server-vercel-rosy-eight.vercel.app/schedule", payload)
         .then((res) => {
             console.log(res.data);
             dispatch(get_success(res.data));
@@ -38,7 +38,7 @@ export const postData = (payload) => (dispatch) => {
 export const getRequest = () => (dispatch) => {
     dispatch(get_Request());
     axios
-        .get("https://shy-puce-lemming-tux.cyclic.app/schedule")
+        .get("https://json-server-vercel-rosy-eight.vercel.app/schedule")
         .then((res) => {
             console.log(res.data, "getRequestaction");
             dispatch(getdataSuccess(res.data));
@@ -52,7 +52,7 @@ export const getRequest = () => (dispatch) => {
 export const getRequestTickets = () => (dispatch) => {
     dispatch(get_Request());
     axios
-        .get("https://shy-puce-lemming-tux.cyclic.app/tickets")
+        .get("https://json-server-vercel-rosy-eight.vercel.app/tickets")
         .then((res) => {
             console.log(res.data, "getRequestaction");
             dispatch(getdataSuccess(res.data));
@@ -66,7 +66,7 @@ export const getRequestTickets = () => (dispatch) => {
 export const getRequestLecture = () => (dispatch) => {
     dispatch(get_Request());
     axios
-        .get("https://shy-puce-lemming-tux.cyclic.app/lecture")
+        .get("https://json-server-vercel-rosy-eight.vercel.app/lecture")
         .then((res) => {
             console.log(res.data, "getRequetlecture");
             dispatch(getdataSuccess(res.data));
@@ -80,7 +80,7 @@ export const getRequestLecture = () => (dispatch) => {
 export const getRequestAssisgnment = () => (dispatch) => {
     dispatch(get_Request());
     axios
-        .get("https://shy-puce-lemming-tux.cyclic.app/assignment")
+        .get("https://json-server-vercel-rosy-eight.vercel.app/assignment")
         .then((res) => {
             console.log(res.data, "assignment");
             dispatch(getdataSuccess(res.data));
@@ -93,7 +93,7 @@ export const getRequestAssisgnment = () => (dispatch) => {
 export const getRequestQuiz = () => (dispatch) => {
     dispatch(get_Request());
     axios
-        .get("https://shy-puce-lemming-tux.cyclic.app/quiz")
+        .get("https://json-server-vercel-rosy-eight.vercel.app/quiz")
         .then((res) => {
             console.log(res.data, "quiz");
             dispatch(getdataSuccess(res.data));
@@ -107,7 +107,7 @@ export const getRequestQuiz = () => (dispatch) => {
  export const deletedata = (id) => (dispatch) => {
     dispatch(get_Request());
     return axios
-        .delete(`https://shy-puce-lemming-tux.cyclic.app/schedule/${id}`)
+        .delete(`https://json-server-vercel-rosy-eight.vercel.app/schedule/${id}`)
         .then((res) => {
             console.log(res.data);
             dispatch(get_success());
@@ -121,7 +121,7 @@ export const getRequestQuiz = () => (dispatch) => {
  export const deletelecturedata = (id) => (dispatch) => {
      dispatch(get_Request());
      return axios
-         .delete(`https://shy-puce-lemming-tux.cyclic.app/lecture/${id}`)
+         .delete(`https://json-server-vercel-rosy-eight.vercel.app/lecture/${id}`)
          .then((res) => {
              console.log(res.data);
              dispatch(get_success());
@@ -135,7 +135,7 @@ export const editProduct = (id, newData) => (dispatch) => {
     dispatch(get_Request());
     axios
         .patch(
-            `https://shy-puce-lemming-tux.cyclic.app/schedule/${id}`,
+            `https://json-server-vercel-rosy-eight.vercel.app/schedule/${id}`,
             newData
         )
         .then((res) => {
@@ -151,7 +151,7 @@ export const editProduct = (id, newData) => (dispatch) => {
 export const lecturesData = (payload) => (dispatch) => {
     dispatch(get_Request());
     axios
-        .post("https://shy-puce-lemming-tux.cyclic.app/lecture", payload)
+        .post("https://json-server-vercel-rosy-eight.vercel.app/lecture", payload)
         .then((res) => {
             console.log(res.data);
             dispatch(get_success(res.data));

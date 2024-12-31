@@ -164,7 +164,7 @@ function SidebarWithHeader({ children }) {
                         <SidebarContent onClose={onClose} />
                     </DrawerContent>
                 </Drawer>
-                
+
                 <MobileNav
                     admin={admin}
                     handleLogout={handleLogout}

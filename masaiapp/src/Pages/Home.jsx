@@ -9,9 +9,8 @@ const Home = () => {
     const [data, setData] = useState([]);
     const getData = () => {
         axios
-            .get("https://shy-puce-lemming-tux.cyclic.app/schedule")
+            .get("https://json-server-vercel-rosy-eight.vercel.app/schedule")
             .then((res) => {
-                console.log(res.data);
                 setData(res.data);
             })
             .catch((err) => {

@@ -5,7 +5,7 @@ const Alldetails = () => {
 
     const getAllDetails = () => {
         axios
-            .get("http://localhost:3000/lecture")
+            .get("https://json-server-vercel-rosy-eight.vercel.app/lecture")
             .then((res) => {
                 res.json();
                 console.log(res.json);
@@ -20,7 +20,7 @@ const Alldetails = () => {
     return <div>
 
 
-        
+
     </div>;
 };
 
